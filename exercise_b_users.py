@@ -77,16 +77,18 @@ print(min(users ["Erik"]["lottery_numbers"]))
 #   if numbers % 2 == 0:
 #     even_numbers.append(numbers)
 # print(even_numbers)
-
 avrils_lottery_numbers = users["Avril"] ["lottery_numbers"]
 even_numbers = []
 for numbers in avrils_lottery_numbers:
   if numbers % 2 == 0:
     even_numbers.append(numbers)
   print(even_numbers)
-  
+
 
 # 7. Erik is one lottery number short! Add the number `7` to be included in his lottery numbers
+Eriks_lottery_numbers = users["Erik"] ["lottery_numbers"] = "[12, 14, 33, 38, 9, 25, 7]"
+print(Eriks_lottery_numbers)
+
 
 
 # 8. Change Erik's hometown to Edinburgh
