@@ -71,12 +71,7 @@ print(users ["Avril"]["pets"][0] ["species"])
 print(min(users ["Erik"]["lottery_numbers"]))
 # 6. Return an list of Avril's lottery numbers that are even
 
-# Avril_lotto = users(["Avril"]["lottery_numbers"])
-# even_numbers = []
-# for numbers in Avril_lotto: 
-#   if numbers % 2 == 0:
-#     even_numbers.append(numbers)
-# print(even_numbers)
+
 avrils_lottery_numbers = users["Avril"] ["lottery_numbers"]
 even_numbers = []
 for numbers in avrils_lottery_numbers:
@@ -95,5 +90,19 @@ print(Eriks_lottery_numbers)
 
 Eriks_hometown = users["Erik"]["home_town"] = "Edinburgh"
 print(Eriks_hometown)
+
+
 # 9. Add a pet dog to Erik called "fluffy"
+
+Erik_fluffy_dog = {
+      "name" : "Fluffy",
+      "species" : "dog"
+}
+Eriks_pets = users["Erik"]["pets"].append(Erik_fluffy_dog)
+print(users["Erik"]["pets"])
+
+
+
+
 # 10. Add another person to the users dictionary
+print(users.keys())
