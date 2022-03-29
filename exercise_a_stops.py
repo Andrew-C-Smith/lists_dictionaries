@@ -1,3 +1,6 @@
+from operator import index
+
+
 stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Haymarket" ]
 
 #1. Add "Edinburgh Waverley" to the end of the list
@@ -8,10 +11,11 @@ stops.insert(0,"Glasgow Queen Street")
 stops.insert(4,"Polmont")
 #4. Print out the index position of "Linlithgow"
 Linlithow_index =stops.index("Linlithgow")
-print("Linlithogiw is index position ", Linlithow_index)
+print("Linlithogow is index position ", Linlithow_index)
 #5. Remove "Livingston" from the list using its name
 stops.remove("Livingston")
 #6. Delete "Cumbernauld" from the list by index
+stops.pop(2)
 #7. Print the number of stops there are in the list
 #8. Sort the list alphabetically
 #9. Reverse the positions of the stops in the list
