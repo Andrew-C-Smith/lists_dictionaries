@@ -105,4 +105,18 @@ print(users["Erik"]["pets"])
 
 
 # 10. Add another person to the users dictionary
+users["Andy"] ={
+    "twitter": "Andy86",
+    "lottery_numbers": [8, 12, 51, 19, 16, 21],
+    "home_town": "Edinburgh",
+    "pets": [
+      {
+        "name": "pat",
+        "species": "fish"
+          }
+    ]
+  
+}
+  
+
 print(users.keys())
