@@ -7,6 +7,8 @@ stops.insert(0,"Glasgow Queen Street")
 #3. Add "Polmont" at the appropriate point (between "Falkirk High" and "Linlithgow")
 stops.insert(4,"Polmont")
 #4. Print out the index position of "Linlithgow"
+Linlithow_index =stops.index("Linlithgow")
+print("Linlithogiw is index position ", Linlithow_index)
 #5. Remove "Livingston" from the list using its name
 #6. Delete "Cumbernauld" from the list by index
 #7. Print the number of stops there are in the list
